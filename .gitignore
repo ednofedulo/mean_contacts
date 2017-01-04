@@ -21,7 +21,6 @@ coverage/
 # ======================
 public/dist/
 uploads
-modules/users/client/img/profile/uploads
 config/env/local.js
 config/env/local-*.js
 *.pem
@@ -30,9 +29,6 @@ config/env/local-*.js
 # ============================
 modules/*/client/scss/*.css
 modules/*/client/less/*.css
-
-# Ignoring MEAN.JS's gh-pages branch for documenation
-_site/
 
 # General
 # =======
@@ -62,20 +58,3 @@ build/
 .metadata
 *~.nib
 local.properties
-
-# IntelliJ
-# ========
-*.iml
-
-# Cloud9 IDE
-# =========
-.c9/
-data/
-mongod
-
-# Visual Studio
-# =========
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
