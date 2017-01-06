@@ -1,0 +1,19 @@
+{
+  "name": "mean",
+  "description": "A MEAN app that allows users to manage contact lists",
+  "main": "server.js",
+  "license": "MIT",
+  "homepage": "https://github.com/ednofedulo/mean_contacts",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1"
+  }
+}
